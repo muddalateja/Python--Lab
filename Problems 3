@@ -1,0 +1,57 @@
+//sum of natural number using while loop
+num=int(input("Enter a number:"))
+i=1
+sum=0
+while i<=num:
+  sum=sum+i
+  i+=1
+print(sum)
+
+
+//sum of natural number using for loop
+num=int(input("Enter a number:"))
+sum=0
+for i in range(1,num+1):
+	sum+=i
+print(sum)
+
+
+//To print math table of a given number using for loop
+n=int(input("Enter a value to print math table:"))
+r=int(input("Enter a value to print math table upto :"))
+for i in range(1,r+1):
+    print(n,'x',i,'=',n*i)
+
+
+//To print math table of a given number using while loop
+n=int(input("Enter a value to print math table:"))
+r=int(input("Enter a value to print math table upto :"))
+i=1
+while i<r+1:
+    print(n,'x',i,'=',n*i)
+    i+=1
+
+
+//Factorial of a given number using for loop
+n=int(input("Enter number:"))
+fact=1
+for i in range(1,n+1):
+	fact=fact*i
+print(fact)
+
+
+//Factorial of a given number using while loop
+n=int(input("Enter number:"))
+i=1
+fact=1
+while i<n+1:
+	fact=fact*i
+	i+=1
+print(fact)
+
+
+//Given number is prime or not using for loop
+
+
+
+//Given number is prime or not using while loop
