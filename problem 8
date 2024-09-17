@@ -1,0 +1,21 @@
+//Facbonii series
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+n =int(input("Enter a number:"))
+for i in range(n):
+    print(fibonacci(i))
+
+//Gcd of two numbers using recusive
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
+num1 = int(input("Enter a num1:"))
+num2 = int(input("Enter a num2:"))
+print(f"The GCD of {num1} and {num2} is {gcd(num1, num2)}")
+
+//
