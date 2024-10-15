@@ -1,0 +1,9 @@
+class Parent:
+	def first(self):
+		print("First function")
+class Child(Parent):
+	def second(self):
+		print("Second function")
+obj=Child()
+obj.first()
+obj.second()
