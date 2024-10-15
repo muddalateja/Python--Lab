@@ -1,0 +1,12 @@
+class Student:
+	branch="CSE"
+	def read_student_details(self,rno,name):
+		self.rolln=rno
+		self.n=name
+	def display(self):
+		print(self.rolln)
+		print(self.n)
+		print(Student.branch)
+s=Student()
+s.read_student_details("23PA1A05F5","Teja")
+s.display()
